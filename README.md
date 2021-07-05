@@ -14,6 +14,6 @@ How to launch the **CRIM Intervals Notebook**:
 
 ![screenshot_2176](https://user-images.githubusercontent.com/4398776/124515665-f84feb80-ddad-11eb-9037-f1d0583e47a2.png)
 
-4. To run various Notebook cells, use Shift+Enter, or the **Run** menu at top of the Notebook
+4. To run various Notebook cells, use **Shift+Enter**, or the **Run** menu at top of the Notebook
 
-5.  Note:  the Binder Notebook will need to be restarted after 10 minutes of inactivity
+5.  **Note**:  the Binder Notebook will need to be restarted after 10 minutes of inactivity.
