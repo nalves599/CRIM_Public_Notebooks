@@ -19,3 +19,4 @@ sniffio==1.2.0
 webcolors==1.11.1
 altair
 textdistance
+ipywidgets
