@@ -204,10 +204,11 @@ def batch_classify(
             index=["piece_title", "pattern_generating_match", "pattern_matched", "predicted_type", "sub_group_id"],
             columns="entry_number",
             values=["part", "start_offset", "start", "sum_durs"],
+            values=["part", "start_offset", "start", "sum_durs"],
             aggfunc=lambda x: x,
         )
         pivot_sort = pivot.sort_values(by=[("start_offset", 1)])
         pivot_sort = pivot_sort.fillna("-")
         pivot_sort.reset_index(inplace=True)
-        pivot_sort = pivot_sort.drop(columns=["sub_group_id"], level=0)
+        pivot_sort = pivot_sort.drop(columns=["sub_group_id", "start_offset"], level=0)
     return pivot_sort
