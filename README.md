@@ -10,7 +10,7 @@ How to launch the **CRIM Intervals Notebook**:
 
 ![screenshot_2175](https://user-images.githubusercontent.com/4398776/124515570-ca6aa700-ddad-11eb-95f0-a4468e3dbee1.png)
 
-3. Open the **Table of Contents** area (as shown at left below) to navigate to various portions of the Notebook
+3. Open the **Table of Contents** area (as shown at left below) to navigate to various portions of the Notebook.
 
 ![screenshot_2176](https://user-images.githubusercontent.com/4398776/124515665-f84feb80-ddad-11eb-9037-f1d0583e47a2.png)
 
